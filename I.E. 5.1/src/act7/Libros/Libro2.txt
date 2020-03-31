@@ -1,0 +1,6 @@
+Codigo: 2
+ISBN: 12345678
+Titulo: Imperio Final
+Autor: Brandon Sanderson
+Editorial: Nova
+Ano de Edicion: 2016

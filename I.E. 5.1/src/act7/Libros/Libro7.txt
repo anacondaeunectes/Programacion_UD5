@@ -1,0 +1,6 @@
+Codigo: 7
+ISBN: 123123
+Titulo: 123
+Autor: 123
+Editorial: 1
+Ano de Edicion: 1999
