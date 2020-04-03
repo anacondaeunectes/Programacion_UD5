@@ -5,8 +5,7 @@ import java.time.LocalDate;
 
 
 public class Videojuego implements Serializable{
-	
-	static int cont = 1;
+ 
 	
 	private int codigo;
 	private String titulo;
@@ -15,7 +14,7 @@ public class Videojuego implements Serializable{
 	
 	
 	public Videojuego(String titulo, LocalDate fechaLanzamiento, Plataforma plataforma) {
-		this.codigo = cont++;
+		this.codigo = VideojuegoDAO.codigo++;
 		this.titulo = titulo;
 		this.fechaLanzamiento = fechaLanzamiento;
 		this.plataforma = plataforma;

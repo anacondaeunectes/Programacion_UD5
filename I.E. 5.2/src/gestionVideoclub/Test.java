@@ -5,6 +5,13 @@ import java.time.LocalDate;
 public class Test {
 
 	public static void main(String[] args) {
+		
+		VideojuegoDAO cc = new VideojuegoDAO();
+		
+		
+		
+		
+		
 
 //		System.out.println(Validar.pedirFecha(LocalDate.of(1948, 12, 14), LocalDate.now()));
 //		System.out.println(Validar.pedirPlataforma());
@@ -22,14 +29,20 @@ public class Test {
 		
 		VideojuegoDAO a = new VideojuegoDAO();
 		
-		a.getAll().add(a1);
-		a.getAll().add(a2);
-		a.getAll().add(a3);
-		a.getAll().add(a4);
-		a.getAll().add(a5);
-		a.getAll().add(a6);
-		a.getAll().add(a7);
-
+		
+//		a.anadirVideojuego();
+		
+		System.out.println(a.getAll().toString());
+		
+//		a.get(0);
+		
+		
+		a.getAll().put(a1.getCodigo(), a1);
+		a.getAll().put(a2.getCodigo(), a2);
+		a.getAll().put(a3.getCodigo(), a3);
+		a.getAll().put(a4.getCodigo(), a4);
+		a.getAll().put(a5.getCodigo(), a5);
+		a.getAll().put(a6.getCodigo(), a6);
 		
 		
 
@@ -37,11 +50,9 @@ public class Test {
 //		VideojuegoDAO.listarVideojuegos();
 
 		a.borrarVideojuego();
-		
-		
-//		MenuDAO.anadirVideojuego(VideojuegoDAO.create());
 				
-				
+		a.anadirVideojuego();		
+		
 //		VideojuegoDAO.listarVideojuegos();
 		
 		
